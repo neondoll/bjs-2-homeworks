@@ -3,8 +3,6 @@ function Student(name, gender, age) {
   this.gender = gender;
   this.age = age;
   this.marks = [];
-
-  return this;
 }
 
 Student.prototype.setSubject = function (subjectName) {
